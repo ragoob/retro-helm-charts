@@ -5,12 +5,12 @@
 replicaCount: 1
 
 image:
-  repository: docker.pkg.github.com/emad-elsaid/retro/retro
+  repository: emadelsaid/retro
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
   containerPort: 3000
-  PullSecrets: docker-registry-github # you can provide your own K8s secretName
+  PullSecrets: ""
 nameOverride: ""
 fullnameOverride: ""
 
