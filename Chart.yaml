@@ -1,4 +1,4 @@
-apiVersion: v2
+apiVersion: v1
 name: retro-app
 description: A Helm chart for retro app on  Kubernetes
 
