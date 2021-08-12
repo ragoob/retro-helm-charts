@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
+autoscaling: false
 
 image:
   repository: emadelsaid/retro
@@ -13,6 +14,7 @@ image:
   PullSecrets: ""
 nameOverride: ""
 fullnameOverride: ""
+
 
 serviceAccount:
   # Specifies whether a service account should be created
